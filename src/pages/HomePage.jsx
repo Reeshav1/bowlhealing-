@@ -5,6 +5,7 @@ import WhatWeSell from "../components/WhatWeSell";
 import OurCollection from "../components/OurCollection";
 import Features from "../components/Features";
 import Footer from "../components/Footer";
+import DiscoverSerenity from "../components/DiscoverSerenity";
 
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
      <WhatWeSell/>
      <ArtisanPromise/>
      <OurCollection/>
+     <DiscoverSerenity/>
      <Features/>
      <Footer/>
     </div>

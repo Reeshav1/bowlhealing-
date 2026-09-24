@@ -13,13 +13,13 @@ export default function Features() {
       id: 2,
       icon: Lock,
       title: 'Secure Payments',
-      description: 'Your payment information is encrypted with industry-leading security protocols.'
+      description: 'Secure Payment With Multiple Options'
     },
     {
       id: 3,
       icon: RotateCcw,
       title: 'Easy Returns',
-      description: 'Not satisfied? Return or exchange within 30 days for a full refund.'
+      description: 'Easy Returns Within 14 Days'
     }
   ];
 

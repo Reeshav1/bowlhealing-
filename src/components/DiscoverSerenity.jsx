@@ -17,9 +17,9 @@ export default function DiscoverSerenity() {
 
         {/* Content */}
         <div className="relative z-10">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl  mb-6 leading-tight">
             Discover Your Path to <br />
-            <span className="text-yellow-500">Serenity</span>
+            <span className="">Serenity</span>
           </h2>
 
           <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto">
