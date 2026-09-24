@@ -51,56 +51,7 @@ export default function OurCollection() {
           </p>
         </div>
 
-        {/* Products Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-          {products.map((product) => (
-            <div
-              key={product.id}
-              className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
-            >
-              {/* Product Image */}
-              <div className="relative overflow-hidden bg-gray-100 h-64 sm:h-72">
-                <img
-                  src={product.image}
-                  alt={product.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                
-                {/* Add to Cart Overlay */}
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
-                  <button className="bg-yellow-600 hover:bg-yellow-700 text-black font-semibold px-6 py-3 rounded flex items-center gap-2 transition-all duration-300">
-                    <ShoppingBag size={18} />
-                    Add to Cart
-                  </button>
-                </div>
-              </div>
-
-              {/* Product Info */}
-              <div className="p-4 sm:p-6">
-                <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider mb-2">
-                  {product.category}
-                </p>
-                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 group-hover:text-yellow-600 transition-colors">
-                  {product.name}
-                </h3>
-                
-                {/* Rating */}
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="flex text-yellow-400">
-                    {[...Array(5)].map((_, i) => (
-                      <span key={i}>★</span>
-                    ))}
-                  </div>
-                  <span className="text-sm text-gray-600">({product.rating})</span>
-                </div>
-
-                <p className="text-2xl font-bold text-gray-900">
-                  {product.price}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+    
 
         {/* View All Button */}
         <div className="text-center mt-12 sm:mt-16">

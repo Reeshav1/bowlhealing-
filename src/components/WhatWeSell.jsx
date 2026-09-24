@@ -5,19 +5,19 @@ export default function WhatWeSell() {
     {
       id: 1,
       name: 'Singing Bowls',
-      image: 'https://images.unsplash.com/photo-1578500494198-246f612d03b3?w=500&h=500&fit=crop',
+      image: 'https://images.unsplash.com/photo-1579755219382-2a62ac7edb2a?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       description: 'Learn More'
     },
     {
       id: 2,
-      name: 'Statues',
-      image: 'https://images.unsplash.com/photo-1578926314433-e2789279f4aa?w=500&h=500&fit=crop',
+      name: 'Gong',
+      image: 'https://images.squarespace-cdn.com/content/v1/5d0434f328d8d9000101f755/1588287173511-3VB3WUYE4B65SNDJZVHX/unnamed+(1).jpg?format=500w',
       description: 'Learn More'
     },
     {
       id: 3,
       name: 'Handpans',
-      image: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=500&h=500&fit=crop',
+      image: 'https://i.otto.de/i/otto/4d4b8869-568c-583a-bf3f-35f5c03a44f2/meinl-percussion-handpan-handpans-und-steel-tongue-drums-handpans-hpstl101-sensory-handpan-d-amara-10-tone-handpan.jpg?$formatz$',
       description: 'Learn More'
     }
   ];
