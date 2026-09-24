@@ -16,7 +16,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav className="bg-black text-white">
+    <nav className="bg-white text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
 
@@ -26,7 +26,7 @@ export default function Navbar() {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-sm font-medium hover:text-yellow-500 transition-colors duration-200"
+                className="text-sm font-roboto hover:text-yellow-500 transition-colors duration-200"
               >
                 {link.name}
               </a>
