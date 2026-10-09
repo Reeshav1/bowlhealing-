@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Search } from "lucide-react";
+import ProductCard from "../components/ProductCard";
 
 export default function Collection() {
   const [search, setSearch] = useState("");
@@ -64,9 +65,7 @@ export default function Collection() {
 
         {/* Products */}
         <div className="mt-36 flex min-h-[250px] items-center justify-center">
-          <p className="text-lg text-[#756B64]">
-            No products found.
-          </p>
+         <ProductCard/>
         </div>
 
       </div>

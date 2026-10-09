@@ -11,14 +11,12 @@ import DiscoverSerenity from "../components/DiscoverSerenity";
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
-     <Navbar/>
      <HeroBanner/>
      <WhatWeSell/>
      <ArtisanPromise/>
      <OurCollection/>
      <DiscoverSerenity/>
      <Features/>
-     <Footer/>
     </div>
   );
 }
